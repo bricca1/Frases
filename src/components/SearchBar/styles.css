@@ -1,0 +1,31 @@
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+  
+  .input-search {
+    width: 100%;
+    max-width: 430px; 
+    border-radius: 5px;
+    height: 30px;
+    margin: 30px;
+  }
+  
+  @media (max-width: 1024px) {
+    .input-search {
+      width: 100%;
+      margin: 20px; 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .input-search {
+      width: 100%;
+      margin: 15px 0;
+      height: 40px; 
+    }
+  }
+  
