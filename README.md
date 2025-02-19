@@ -7,4 +7,8 @@
 - cd nombre-proyecto
 # Correr el comando .
 - npm run dev 
+# Correr los test de vite.
+- npx vitest
+# Si desea ver la UI de vitest
+- npx vitest --ui
 

@@ -56,3 +56,5 @@ export const usePhraseContext = () => {
   }
   return context;
 };
+
+export { PhraseContext };
